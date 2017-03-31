@@ -1,0 +1,22 @@
+// Place your settings in this file to overwrite the default settings
+{
+"editor.fontSize": 16,
+"vim.useSystemClipboard": true,
+"vim.autoindent": true,
+"vim.easymotion": true,
+"vim.hlsearch": true,
+"vim.ignorecase": true,
+"vim.incsearch": true,
+"vim.leader": ",",
+"vim.showcmd": true,
+"vim.smartcase": true,
+"vim.useCtrlKeys": true,
+"vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+"workbench.colorTheme": "Monokai",
+"workbench.iconTheme": "vscode-icons"
+}
