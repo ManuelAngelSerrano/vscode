@@ -1,22 +1,77 @@
 // Place your settings in this file to overwrite the default settings
 {
-"editor.fontSize": 16,
-"vim.useSystemClipboard": true,
-"vim.autoindent": true,
-"vim.easymotion": true,
-"vim.hlsearch": true,
-"vim.ignorecase": true,
-"vim.incsearch": true,
-"vim.leader": ",",
-"vim.showcmd": true,
-"vim.smartcase": true,
-"vim.useCtrlKeys": true,
-"vim.insertModeKeyBindings": [
-        {
-            "before": ["j","j"],
-            "after": ["<Esc>"]
-        }
+    // Controls the font size in pixels.
+    "editor.fontSize": 16,
+    //Appearance
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vscode-icons",
+    
+    //Vim use standard clipboard
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,    
+    "vim.autoindent": true,
+    "vim.hlsearch": true,
+    "vim.ignorecase": true,
+    "vim.smartcase": true,
+    "vim.easymotion": true, 
+    "vim.incsearch": true,
+    "vim.leader": ",",
+    "vim.showcmd": true,
+
+    // custom keybinds
+    // jj -> Normal mode
+    "vim.insertModeKeyBindings": [
+       {
+           "before": ["j", "j"],
+           "after": ["<Esc>"]
+       }
     ],
-"workbench.colorTheme": "Monokai",
-"workbench.iconTheme": "vscode-icons"
+    //ZZ save and quit
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["Z", "Z"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                },
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "w"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "e"],
+            "after": [],
+            "commands": [
+                {
+                    //"command": "workbench.action.files.openFile", //Windows ?
+                    "command": "workbench.action.files.openFileFolder",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "q"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        }
+    ]
 }
