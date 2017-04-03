@@ -42,6 +42,54 @@
                     "command": "workbench.action.files.save",
                     "args": []
                 },
+// Place your settings in this file to overwrite the default settings
+{
+    // Controls the font size in pixels.
+    "editor.fontSize": 16,
+    //Appearance
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vscode-icons",
+    
+    //Vim use standard clipboard
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,    
+    "vim.autoindent": true,
+    "vim.hlsearch": true,
+    "vim.ignorecase": true,
+    "vim.smartcase": true,
+    "vim.easymotion": true, 
+    "vim.incsearch": true,
+    "vim.leader": ",",
+    "vim.showcmd": true,
+
+    // custom keybinds
+    // jj -> Normal mode
+    "vim.insertModeKeyBindings": [
+       {
+           "before": ["j", "j"],
+           "after": ["<Esc>"]
+       }
+    ],
+
+    // ZZ save and quit
+    // <leader>e open file
+    // <leader>w save file
+    // <leader>q quit file
+    // <leader>ci Toggle comment line
+    // <leader>. : ex Command line
+    // <leader>s / Search Forward
+    // <leader>S ? Search Backward
+
+
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["Z", "Z"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                },
                 {
                     "command": "workbench.action.closeActiveEditor",
                     "args": []
@@ -88,6 +136,18 @@
                     "args": []
                 }
             ]
+        },
+        {
+           "before": ["leader", "."],
+           "after": [":"]
+        },
+        {
+           "before": ["leader", "s"],
+           "after": ["/"]
+        },
+        {
+           "before": ["leader", "S"],
+           "after": ["?"]
         }
     ]
 }
