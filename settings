@@ -35,6 +35,9 @@
     // <leader>. : ex command line
     // <leader>s / Search forward
     // <leader>S ? Search backward
+    // <leader>b Buffers
+    // <leader>f Find File
+    // <leader>t Commands
 
 
     "vim.otherModesKeyBindingsNonRecursive": [
@@ -104,6 +107,36 @@
         {
            "before": ["leader", "S"],
            "after": ["?"]
+        },
+        {
+            "before": ["leader", "b"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickopen",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "f"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickopen",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "t"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.showCommands",
+                    "args": []
+                }
+            ]
         }
     ]
 }
