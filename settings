@@ -137,6 +137,16 @@
                     "args": []
                 }
             ]
+        },
+        {
+            "before": ["leader", "p"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.showCommands",
+                    "args": []
+                }
+            ]
         }
     ]
 }
