@@ -5,6 +5,7 @@
     //Appearance
     "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "afterDelay",
     
     //Vim use standard clipboard
     "vim.useSystemClipboard": true,
@@ -16,7 +17,7 @@
     "vim.easymotion": true, 
     "vim.incsearch": true,
     "vim.leader": ",",
-    "vim.showcmd": true,
+    "vim.showcmd": true, 
 
     // custom keybinds
     // jj -> Normal mode
@@ -35,10 +36,11 @@
     // <leader>. : ex command line
     // <leader>s / Search forward
     // <leader>S ? Search backward
-    // <leader>b Buffers
-    // <leader>f Find File
-    // <leader>t Commands
-
+    // <leader>b buffers
+    // <leader>f find file
+    // <leader>t command palette
+    // <leader>p command palette
+    
 
     "vim.otherModesKeyBindingsNonRecursive": [
         {
@@ -150,3 +152,5 @@
         }
     ]
 }
+
+
