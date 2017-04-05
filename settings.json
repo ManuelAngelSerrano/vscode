@@ -5,7 +5,6 @@
     //Appearance
     "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "vscode-icons",
-    "files.autoSave": "afterDelay",
     
     //Vim use standard clipboard
     "vim.useSystemClipboard": true,
@@ -17,7 +16,7 @@
     "vim.easymotion": true, 
     "vim.incsearch": true,
     "vim.leader": ",",
-    "vim.showcmd": true, 
+    "vim.showcmd": true,
 
     // custom keybinds
     // jj -> Normal mode
@@ -29,6 +28,7 @@
     ],
 
     //ZZ save and quit
+    // <leader>zz save and quit
     // <leader>e open file
     // <leader>w save file
     // <leader>q quit file
@@ -36,15 +36,28 @@
     // <leader>. : ex command line
     // <leader>s / Search forward
     // <leader>S ? Search backward
-    // <leader>b buffers
-    // <leader>f find file
-    // <leader>t command palette
-    // <leader>p command palette
-    
+    // <leader>b Buffers
+    // <leader>f Find File
+    // <leader>t Commands
+
 
     "vim.otherModesKeyBindingsNonRecursive": [
         {
             "before": ["Z", "Z"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                },
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "z", "z"],
             "after": [],
             "commands": [
                 {
@@ -139,18 +152,6 @@
                     "args": []
                 }
             ]
-        },
-        {
-            "before": ["leader", "p"],
-            "after": [],
-            "commands": [
-                {
-                    "command": "workbench.action.showCommands",
-                    "args": []
-                }
-            ]
         }
     ]
 }
-
-
