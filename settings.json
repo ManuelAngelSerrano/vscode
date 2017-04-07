@@ -38,7 +38,8 @@
     // <leader>S ? Search backward
     // <leader>b Buffers
     // <leader>f Find File
-    // <leader>t Commands
+    // <leader>t Command palette
+    // <leader>p Command palette    
 
 
     "vim.otherModesKeyBindingsNonRecursive": [
@@ -145,6 +146,16 @@
         },
         {
             "before": ["leader", "t"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.showCommands",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "p"],
             "after": [],
             "commands": [
                 {
