@@ -27,7 +27,7 @@
        }
     ],
 
-    //ZZ save and quit
+    // ZZ save and quit
     // <leader>zz save and quit
     // <leader>e open file
     // <leader>w save file
@@ -38,8 +38,8 @@
     // <leader>S ? Search backward
     // <leader>b Buffers
     // <leader>f Find File
-    // <leader>t Command palette
-    // <leader>p Command palette    
+    // <leader>t Commands
+    // <leader>p Commands
 
 
     "vim.otherModesKeyBindingsNonRecursive": [
@@ -146,6 +146,16 @@
         },
         {
             "before": ["leader", "t"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.showCommands",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "x"],
             "after": [],
             "commands": [
                 {
