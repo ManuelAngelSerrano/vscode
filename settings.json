@@ -38,8 +38,9 @@
     // <leader>S ? Search backward
     // <leader>b Buffers
     // <leader>f Find File
-    // <leader>t Commands
-    // <leader>p Commands
+    // <leader>t Command-palette
+    // <leader>p Command-palette
+    // <leader>x Command-palette
 
 
     "vim.otherModesKeyBindingsNonRecursive": [
