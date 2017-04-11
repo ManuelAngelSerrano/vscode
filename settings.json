@@ -41,6 +41,7 @@
     // <leader>t Command-palette
     // <leader>p Command-palette
     // <leader>x Command-palette
+    // U <C-R> Redo
 
 
     "vim.otherModesKeyBindingsNonRecursive": [
