@@ -43,7 +43,6 @@
     // <leader>x Command-palette
     // U <C-R> Redo
 
-
     "vim.otherModesKeyBindingsNonRecursive": [
         {
             "before": ["Z", "Z"],
@@ -175,10 +174,6 @@
                     "args": []
                 }
             ]
-        },
-        {
-            "before": ["U"],
-            "after": ["C-r"]
         }
     ]
 }
