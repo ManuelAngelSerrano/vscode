@@ -6,6 +6,7 @@ My Visual Studio Settings File
 + vscode-icons
 + Ruby
 
++ Rainbow Brackets
 + Beautify
 + Code Runner 
 + LaTeX Compile 
