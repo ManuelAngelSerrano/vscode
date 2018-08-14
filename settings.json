@@ -1,5 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
+    //Match Menu to Color Theme
+    "window.titleBarStyle": "custom",
     // Controls the font size in pixels.
     "editor.fontSize": 16,
     //Appearance
