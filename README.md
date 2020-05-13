@@ -3,7 +3,7 @@ My Visual Studio Settings File
 
 ## Plugins
 + Vim
-+ 
+    
 + Azure Repos
 + Beautify
 + C#
