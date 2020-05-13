@@ -2,8 +2,7 @@
 My Visual Studio Settings File
 
 ## Plugins
-**Vim**
-
++ **Vim**
 + Azure Repos
 + Beautify
 + C#
