@@ -3,14 +3,24 @@ My Visual Studio Settings File
 
 ## Plugins
 + Vim
-+ vscode-icons
-+ Ruby
-
-+ Rainbow Brackets
++ 
++ Azure Repos
 + Beautify
-+ Code Runner 
++ C#
++ Code Runner
++ Code Spell Checker
++ Git Graph
 + LaTeX Compile 
-+ LaTex Language Support 
-+ Scala 
-+ ScalaSnippets 
-+ Spelling and Grammar Checker
++ LaTeX Workshop
++ Lorem Ipsum
++ markdownlint
++ Microsoft Quantum Development Kit for Visual Studio Code
++ Python
++ qiskit-vscode
++ Rainbow Brackets
++ Ruby
++ TabNine
++ Vim
++ VSCode Ruby
++ vscode-icons
+
