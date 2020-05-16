@@ -10,11 +10,11 @@ My Visual Studio Settings File
 + Code Spell Checker
 + Git Graph
 + GitLens
-+ LaTeX Compile 
 + LaTeX Workshop
 + Lorem Ipsum
 + markdownlint
 + Microsoft Quantum Development Kit for Visual Studio Code
++ Project Manager
 + Python
 + qiskit-vscode
 + Rainbow Brackets
