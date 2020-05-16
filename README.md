@@ -21,6 +21,7 @@ My Visual Studio Settings File
 + Ruby
 + TabNine
 + Vim
++ Visual Studio intellicode
 + VSCode Ruby
 + vscode-icons
 
