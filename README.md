@@ -24,6 +24,10 @@ My Visual Studio Settings File
 + VSCode Ruby
 + vscode-icons
 
+## Configuración
++ Añadir vim Status Bar color a true
++ Añadir ºº como <ESC> 
+
 ## ohmyzsh powerline
 
 - Cambiar el **tema** de zsh en ~/.zshrc <https://github.com/ohmyzsh/ohmyzsh/wiki/Themes>
