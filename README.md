@@ -40,3 +40,4 @@ My Visual Studio Settings File
 - Para usar **powerlevel10k** debes instalarlo antes <https://github.com/romkatv/powerlevel10k>
 - Si usas **powerlevel10k** debes poner **"MesloLGS NF"** en **Visual Studio Code** como terminal font family
 
+Mas información en: <https://github.com/ManuelAngelSerrano/ohmyzsh>
