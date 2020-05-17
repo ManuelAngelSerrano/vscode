@@ -14,6 +14,7 @@ My Visual Studio Settings File
 + Lorem Ipsum
 + markdownlint
 + Microsoft Quantum Development Kit for Visual Studio Code
++ Open in Vim (?)
 + Project Manager
 + Python
 + qiskit-vscode
@@ -21,7 +22,7 @@ My Visual Studio Settings File
 + Ruby
 + TabNine
 + Vim
-+ Visual Studio intellicode
++ Visual Studio intellicode (?)
 + VSCode Ruby
 + vscode-icons
 
