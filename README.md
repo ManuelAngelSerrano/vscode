@@ -8,6 +8,7 @@ My Visual Studio Settings File
 + C#
 + Code Runner
 + Code Spell Checker
++ ESLint
 + Git Graph
 + GitLens
 + LaTeX Workshop
@@ -20,6 +21,7 @@ My Visual Studio Settings File
 + qiskit-vscode
 + Rainbow Brackets
 + Ruby
++ Simple React Snippets
 + TabNine
 + Vim
 + Visual Studio intellicode (?)
