@@ -14,6 +14,7 @@ My Visual Studio Settings File
 + LaTeX Workshop
 + Lorem Ipsum
 + markdownlint
++ Material Icon Thems by Philipp Kief
 + Microsoft Quantum Development Kit for Visual Studio Code
 + Open in Vim (?)
 + Project Manager
