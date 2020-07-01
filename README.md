@@ -17,6 +17,7 @@ My Visual Studio Settings File
 + Material Icon Thems by Philipp Kief
 + Microsoft Quantum Development Kit for Visual Studio Code
 + Open in Vim (?)
++ Path Intellisense
 + Project Manager
 + Python
 + qiskit-vscode
