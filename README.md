@@ -11,6 +11,7 @@ My Visual Studio Settings File
 + ESLint
 + Git Graph
 + GitLens
++ Ionide-fsharp
 + LaTeX Workshop
 + Lorem Ipsum
 + markdownlint
