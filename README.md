@@ -25,6 +25,7 @@ My Visual Studio Settings File
 + Rainbow Brackets
 + Ruby
 + Simple React Snippets
++ Sonarlint
 + TabNine
 + Vim
 + Visual Studio intellicode (?)
